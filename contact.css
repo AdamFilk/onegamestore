@@ -1,0 +1,164 @@
+/*banner*/
+#banner{
+	width: 100%;
+	height: 60vh;
+	background: linear-gradient(to bottom, rgba(6,12,34,0.8)0,rgba(6,12,34,0.8)100%),
+	url(images/1.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+/*nav start*/
+a#buyBtn{
+    background-color: #3722f8;
+    border: 2px solid#3722f8;
+    border-radius: 40px;
+    padding:5px 10px;
+    color: #fff;
+    transition: 0.5s;
+    animation-delay: 0.8s;
+    -webkit-animation-delay: 0.8s;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+a#buyBtn:hover{
+    background:transparent;
+    color: #fff;
+}
+a.nav-link{
+    color: rgba(202,206,221,0.8);
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer ;
+}
+a.nav-item.active, a.nav-link:hover{
+    border-bottom: 2px solid #3722f8;
+    transition: 0.5s ease-in-out;
+    animation-delay: 0.5s;
+}
+/*nav end*/
+
+/* navbarscrolled */
+.navbar-default.scrolled{
+    background-color: black;
+}
+
+#logo{
+	width: 50%;
+	height: 50%;
+}
+body{
+background-color: #010114;
+
+}
+
+h1{
+	text-align: center;
+}
+
+#headerWhitespace{
+    margin-top: 20%;
+}
+#bgcontact{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8)0, rgba(44, 47, 56, 0.8) 100%),url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+/*form*/
+form{
+	width: 100%;
+	height: 110vh;
+	background: linear-gradient(to bottom, rgba(6,12,34,0.8)0,rgba(6,12,34,0.8)100%),
+	url(images/1.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: #bcbcbc !important;
+	margin-top: 20px;
+	border-radius: 30px;
+}
+
+form #input{
+	border-radius: 20px;
+}
+
+input[type="text"],input[type="email"],input[type="number"]{
+	width: 100%;
+	outline: none;
+	border:3px solid #ccc;
+	border-radius: 5px;
+}
+
+input[type="text"]:focus,input[type="email"]:focus,input[type="number"]:focus{
+	border:3px solid blue;
+}
+textarea{
+	width: 100%;
+	outline: none;
+	border:3px solid #ccc;
+}
+textarea:focus{
+	border:3px solid blue;
+}
+
+#cbtn:hover{
+	background-color: transparent;
+	border:solid #3722f8;
+	color: #fff;
+	transition: 0.5s;
+	animation-delay: 0.8s;
+}
+
+#cbtn{
+	background-color: #3722f8;
+	border-color: #3722f8;
+	width: 150px;
+	margin-top: 50px;
+	border-radius: 20px;
+}
+
+.text-muted {
+    color: #FFF5EE!important;
+}
+
+/*form end*/
+
+/*map and address*/
+#card-header{
+	font-size: 30px;
+}
+
+#card-body{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	color: #fff;
+}
+
+iframe{
+	padding-top: 20px;
+	padding-right: 40px;
+	margin: 0px;
+}
+
+#title{
+	background-color: #010114;
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+}
+/*map and address end*/
+
+/*footer*/
+#card-footer{
+	background-color: #010114;
+	color: #fff;
+}
+
+hr{
+	width: 500px;
+	background-color: white;
+	text-align: center;
+}

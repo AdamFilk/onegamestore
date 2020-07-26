@@ -1,0 +1,133 @@
+
+
+
+#bg1{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8)0, rgba(44, 47, 56, 0.8) 100%),url(images/watchvd.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+#bgdota{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8)0, rgba(44, 47, 56, 0.8) 100%),url(images/dota2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+#bggta{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8)0, rgba(44, 47, 56, 0.8) 100%),url(images/gtav.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+#bgcsgo{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8)0, rgba(44, 47, 56, 0.8) 100%),url(images/csgo.jfif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+#bgps4{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8)0, rgba(44, 47, 56, 0.8) 100%),url(images/csgo.jfif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+#bgwatch{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8)0, rgba(44, 47, 56, 0.8) 100%),url(images/csgo.jfif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+img.sli{
+    height: 40vh;
+    width: 100%;
+}
+
+img.csgosli{
+    height: 100vh;
+    width: 100%
+}
+
+#logo{
+    width: 50% ;
+    height: 50%;
+}
+
+#banner{
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8)0, rgba(44, 47, 56, 0.8) 100%),url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+#headerWhitespace{
+    margin-top: 15%;
+}
+a#buyBtn{
+    background-color: #3722f8;
+    border: 2px solid#3722f8;
+    border-radius: 40px;
+    padding:5px 10px;
+    color: #fff;
+    transition: 0.5s;
+    animation-delay: 0.8s;
+    -webkit-animation-delay: 0.8s;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+a#buyBtn:hover{
+    background:transparent;
+    color: #fff;
+}
+a.nav-link{
+    color: rgba(202,206,221,0.8);
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer ;
+}
+a.nav-item.active, a.nav-link:hover{
+    border-bottom: 2px solid #3722f8;
+    transition: 0.5s ease-in-out;
+    animation-delay: 0.5s;
+}
+.navbar-default.scrolled{
+    background-color: black;
+}
+
+/* read button from quick link */
+a.read{
+    background-color: #3722f8;
+    border: 2px solid#3722f8;
+    border-radius: 40px;
+    padding:2px 10px;
+    color: #fff;
+    transition: 0.5s;
+    animation-delay: 0.8s;
+    -webkit-animation-delay: 0.8s;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+a.read:hover{
+    background:transparent;
+    color: #fff;
+}
+
+#card-footer{
+	background-color: #010114;
+	color: #fff;
+}
